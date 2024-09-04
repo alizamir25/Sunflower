@@ -14,7 +14,7 @@ function draw(){
   fill(0);
   circle(p.x, p.y, diamater);
   pop();
-  angle += angleStep;
+  angle+=angleStep;
   distance+=diamater/720*angleStep;
   if (p.x>width/2 || p.y>=height/2){ 
     background("#FBBC04");
